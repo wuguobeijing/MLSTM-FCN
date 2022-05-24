@@ -6,7 +6,7 @@ from scipy.io import loadmat
 ozone = r""
 
 ''' Load train set '''
-data_dict = loadmat(ozone + "ozone.mat")
+data_dict = loadmat(ozone + "./ozone.mat")
 X_train_mat = data_dict['X_train'][0]
 y_train_mat = data_dict['Y_train'][0]
 X_test_mat = data_dict['X_test'][0]

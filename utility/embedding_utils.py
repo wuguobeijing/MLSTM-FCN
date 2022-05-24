@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 np.random.seed(1000)
 
-from utils.generic_utils import load_dataset_at
+from utility.generic_utils import load_dataset_at
 
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences

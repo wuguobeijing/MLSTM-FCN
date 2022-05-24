@@ -6,7 +6,7 @@ import matplotlib.pylab as plt
 
 mpl.style.use('seaborn-paper')
 
-from utils.constants import TRAIN_FILES, TEST_FILES, MAX_NB_VARIABLES, NB_CLASSES_LIST
+from utility.constants import TRAIN_FILES, TEST_FILES, MAX_NB_VARIABLES, NB_CLASSES_LIST
 
 
 def load_dataset_at(index, fold_index=None, normalize_timeseries=False, verbose=True) -> (np.array, np.array):
